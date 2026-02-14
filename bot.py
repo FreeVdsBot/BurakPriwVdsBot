@@ -8,7 +8,7 @@ import threading
 from flask import Flask, request  # EKLEDİM: Flask için
 
 # TOKEN'ı env'den çek (Render'da zorunlu, hardcoded'ı kaldır)
-TOKEN = os.getenv("TELEGRAM_BOT_TOKEN") or "8326595996:AAHgtARwAF9UZMmIFDYeHhH5Zq0Yzey-PuU"
+TOKEN = os.getenv("TELEGRAM_BOT_TOKEN") or "8422910838:AAH6xmvMZRnHekNskh1pb9IRcFyrW-4bK_E"
 ADMIN_ID = int(os.getenv("ADMIN_ID") or "8352226813")
 
 bot = telebot.TeleBot(TOKEN)
